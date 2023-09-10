@@ -57,7 +57,7 @@ const Weatherpage = (props) => {
                 <InfoContainer name="Pressure" value={weather.main.pressure}
                     img="https://raw.githubusercontent.com/ayushkul/react-weather-app/8182448417bd379bdfcb452f3a15b9b29b3fd674/public/icons/pressure.svg" />
             </div>
-            <a href="./CityComponent">Go to Homepage</a>
+            <a href="/">Go to Homepage</a>
         </Fragment>
     )
 }
