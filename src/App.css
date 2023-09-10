@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 #555;
+    background: white;
+}
+
+.weatherhead{
+    font-size: 40px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.lds-dual-ring {
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-left: 10px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #f7afaf;
+    border-color: #ffbbbb transparent #f9cece transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+  
+
+@media screen and (max-width: 480px) {
+    .container{
+        width: 300px;
+        height: 600px;
+    }
+}
